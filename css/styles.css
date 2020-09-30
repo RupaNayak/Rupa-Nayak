@@ -1,0 +1,134 @@
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em; /*16px=100%=1em*/
+  margin: 50px auto 0 auto ;
+  line-height: 2;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+p{
+  line-height: 2;
+}
+a{
+  color: #11999E;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+.computer{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+.gamepad{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row{
+  line-height: 2;
+  margin:100px auto;
+  text-align: left;
+  width:50%;
+}
+hr{
+  color:#EAF6F6;
+  border-width: 7px;
+  padding:0;
+  margin:100px auto;
+  border-style: dotted hidden hidden hidden;
+  width: 4%;
+
+
+}
+
+.top-container{
+  background-color: #d2fafb;
+  position:relative;
+  padding-top: 100px;
+}
+.middle-container{
+  margin:100px auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 300px;
+  top:40px;
+}
+.top-cloud{
+  position: absolute;
+  left:250px;
+  bottom:300px;
+}
+.profile-pic{
+  width:20%;
+}
+.profile-description{
+  color:#40514E;
+  width:30%;
+  margin:5% auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding:2%;
+  margin-top:2%;
+}
+.bottom-container p{
+  color: #EAF6F6;
+}
+.bottom-container a{
+  margin:2%;
+  color:#11999E;
+  text-decoration: none;
+}
+.contact-me{
+  margin-top:5%;
+}
+.con1{
+  margin: 3% auto;
+}
+.con2{
+  margin:3% auto;
+  width:38%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration:none;
+  background-color: #11CDD4;
+  border-style: none;
+  border-radius: 1rem;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-align: center;
+  background:linear-gradient( #11CDD4, #11999E);
+}
+.btn:hover{
+  background: linear-gradient(#30e3cb,#2bc4ad);
+  border-radius: .5rem;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  color:#eaf6f6;
+  font-size: .75rem;
+  padding:20px 0;
+}
